@@ -1,2 +1,2 @@
 #Projeto Currency Converter
-<p>Esse projeto ainda está em fase de desenvolvimento</p>
+<p style="text-align:center">Esse projeto ainda está em fase de desenvolvimento</p>
