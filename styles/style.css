@@ -82,3 +82,22 @@ h3{
     position: absolute;
     bottom:140px
 }
+@media (max-width: 900px){
+    p{
+        position: relative;
+        left:3%
+    }
+    #currencyValue{
+        position: absolute;
+        right:50px;
+        left: -50px;        
+    }
+    #currencyConvert{
+        position: absolute;
+        left: 20px;
+    }
+    #convertido{
+        display: inline-block;
+    }
+
+}
