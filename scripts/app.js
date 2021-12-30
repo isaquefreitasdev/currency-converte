@@ -15,9 +15,15 @@ function convert() {
             let moeda = data.USDBRL.high;
            
             let result = `${valor * moeda} doláres`;
+            if(valor == ""){
+                verificando();
+            }else{
             document.getElementById("convertido").innerHTML = result;
+            }
         }) 
 
 }
-
+function verificando() {
+    alert("Preencha o campo para prosseguir")
+}
 

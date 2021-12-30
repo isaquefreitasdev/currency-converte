@@ -3,17 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: #03045E;
+    height:100px;
+    width: 100%;
+    display: flex;
+    justify-content:center
+   
+}
 
 h1{
     font-family: 'Montserrat', sans-serif;
     color: #FF8500;
 }
 .content-focus{
-    background-color: #03045E;
-    height:100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    
+   
 }
 input{
     outline:none;
@@ -21,12 +27,20 @@ input{
 }
 p{
     color: #fff;
+    display:block;
+    position: absolute;
+    left:37%;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+
 }
 main{
     display: flex;
     justify-content: center;
     background-color:#FF9E00;
-    height: 200px;
+    height: 100vh;
+    width: 100%;
     position: relative;
 }
 h2{
@@ -47,6 +61,8 @@ h2{
     border-left: none;
     border-right: none;
     border-radius: 20px;
+    position: absolute;
+    bottom:200px
 
 }
 #currencyConvert{
@@ -57,5 +73,8 @@ h2{
     border-left: none;
     border-right: none;
     border-radius: 20px;
+    position: absolute;
+    bottom:200px;
+    left: 120px;
 
 }
